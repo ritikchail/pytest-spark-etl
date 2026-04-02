@@ -88,3 +88,5 @@ class TestTransformSeller:
         
         assert "first_sale" in renamed.columns
         assert "first_time_sold_timestamp" not in renamed.columns
+
+pytestmark = pytest.mark.unit
